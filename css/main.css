@@ -380,7 +380,7 @@ animation: winners_intro 1s;
 		width: calc(33.3% - 15px);
 	}
 	header .logo.left{
-		width: 55	px;
+		width: 55px;
 	}
 	header .logo img{
 		width: 100% !important;
