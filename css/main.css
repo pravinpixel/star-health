@@ -404,8 +404,13 @@ animation: winners_intro 1s;
 
 @media (max-width: 767px){
 	.winners_list .gif_anim{
-		bottom: 0;
-		top: unset;
+		bottom: unset;
+		top: calc(100vh - 100vw);
+		justify-content: center;
+	}
+	.winners_list .gif_anim img {
+		width: 100vw;
+		position: absolute;
 	}
 
 	header{
